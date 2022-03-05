@@ -8,7 +8,7 @@
     }
     return (false);
 }
-var time = 4; var page = getQueryVariable("t");
+var time = 120; var page = getQueryVariable("t");
 function countDown() 
 { if (time > 0) 
    { time--;
