@@ -14,7 +14,9 @@ html {
     font-size: 20px;
     cursor: pointer;
 }
-
+#img{
+    width : 70%;
+}
 
 .lilink-out-btn #button1{
    

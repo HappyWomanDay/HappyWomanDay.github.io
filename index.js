@@ -16,6 +16,8 @@ function countDown()
         var newButton = document.getElementById("button1");     
         newButton.style.display =  'inline-block'; 
         newButton.style.textAlign= 'center';
+        var title1 = document.getElementById("title1");
+        title1.style.display = 'None';
      }
 //  if (time == -1) {
 //      window.location = page; }
@@ -38,6 +40,6 @@ function init() {
 
 document.onload = init();
 $(document).ready(function () { $('.link-out-btn').click(function () { window.location = page; }); $('#linkout').text(page); });
-
+var img = document.getElementById(img);
 function closeWindow() 
     { window.open('', '_parent', ''); window.close(); } 
