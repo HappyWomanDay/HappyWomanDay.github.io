@@ -14,10 +14,11 @@ html {
     font-size: 20px;
     cursor: pointer;
 }
-#img{
-    width : 70%;
+@media only screen and (max-width: 1280px) {
+  #img {
+    width: 100%;
+  }
 }
-
 .lilink-out-btn #button1{
    
 }
